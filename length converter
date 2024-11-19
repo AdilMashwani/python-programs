@@ -1,0 +1,7 @@
+   #length converter
+ length = eval(input('Enter the length in the centimeters : '))// it will store the input in integer 
+inch = length * 2.54 // its the formula of converting inch to length
+ if length >= 1:
+         print(f'The length in inches is : {inch} inches. ')
+ else :
+         print(f'The length is invalid .')
