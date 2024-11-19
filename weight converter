@@ -1,0 +1,8 @@
+ # Weight converter 
+
+ weight = int(input('Enter your weight :'))
+ measure_unit = input(' Kilo grams (k) or ibs (L): ')
+ if measure_unit.upper() == 'K':
+     print('Your weight in lbs is = ' , weight * 2.2 )
+ elif measure_unit.upper() ==  'L':
+     print('Your weight in the kg is = ', weight * 0.45)
